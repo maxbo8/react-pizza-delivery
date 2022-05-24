@@ -4,13 +4,14 @@
 @import './components/all';
 
 body {
-  background-color: $background;
+  background-image: url(../assets/img/background-pizza.jpg);
 }
 
 .wrapper {
   width: calc(100vw - 100px);
   height: 100%;
-  background-color: #fff;
+  background: -webkit-linear-gradient(90deg, #ffffff,#f4f0e3,#ede6d0,#bbecb6);
+  background: linear-gradient(90deg, #ffffff,#f4f0e3,#ede6d0,#bbecb6);
   margin: 50px auto;
   border-radius: 10px;
   max-width: 1400px;
@@ -220,7 +221,7 @@ body {
 
         &:last-of-type {
           b {
-            color: $orange;
+            color: $yellow;
           }
         }
       }
